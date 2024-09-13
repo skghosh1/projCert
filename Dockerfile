@@ -1,5 +1,5 @@
 # Use the devopsedu/webapp image as the base
-FROM devopsedu/webapp
+FROM devopsedu/webapp:latest
 
 # Copy the PHP website files into the container
 COPY . /app
