@@ -6,6 +6,3 @@ COPY . /app
 
 # Expose port 80
 EXPOSE 80
-
-# Start Apache when the container launches
-CMD ["apache2-foreground"]
